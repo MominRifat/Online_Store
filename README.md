@@ -14,4 +14,4 @@ Features:
 
 💻 User-Friendly Interface: Professional and responsive GUI with JavaFX
 
-This project demonstrates a fully functional store system, perfect for learning JavaFX GUI development and real-world application logic.
+This project demonstrates a fully functional store system, perfect for learning JavaFX GUI development and real-world application logic...
