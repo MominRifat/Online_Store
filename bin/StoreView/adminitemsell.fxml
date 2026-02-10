@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Store.adminItemSellController">
+   <children>
+      <AnchorPane layoutX="-1.0" layoutY="-5.0" prefHeight="391.0" prefWidth="414.0">
+         <children>
+            <Label layoutX="116.0" layoutY="44.0" text="Put Item to Sell" textFill="#426884">
+               <font>
+                  <Font name="System Bold" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="129.0" layoutY="120.0" text="Cloth" textFill="#39b8bd">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="131.0" layoutY="188.0" text="Food" textFill="#39babf">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Label>
+            <Button fx:id="clothNextButton" layoutX="221.0" layoutY="123.0" mnemonicParsing="false" onAction="#handleClothNext" prefHeight="27.0" prefWidth="58.0" text="Next" textFill="#095e4a">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Button>
+            <Button fx:id="foodNextButton" layoutX="221.0" layoutY="191.0" mnemonicParsing="false" onAction="#handleFoodNext" prefHeight="27.0" prefWidth="58.0" text="Next" textFill="#095e4a">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font></Button>
+            <Button fx:id="backButton" layoutX="186.0" layoutY="283.0" mnemonicParsing="false" onAction="#handleBack" prefHeight="32.0" prefWidth="58.0" text="Back" textFill="#f20909">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

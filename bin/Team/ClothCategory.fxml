@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Team.ClothCategoryController">
+   <children>
+      <Label layoutX="255.0" layoutY="43.0" text="Cloth">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Button layoutX="206.0" layoutY="346.0" mnemonicParsing="false" onAction="#back" text="Back" />
+      <TableView layoutX="14.0" layoutY="100.0" prefHeight="200.0" prefWidth="569.0">
+        <columns>
+          <TableColumn fx:id="nameCol" prefWidth="99.20001220703125" text="Name" />
+          <TableColumn fx:id="idCol" prefWidth="91.20001220703125" text="Id" />
+            <TableColumn fx:id="priceCol" prefWidth="89.60003662109375" text="Price" />
+            <TableColumn fx:id="quantityCol" prefWidth="92.79998779296875" text="Quantity" />
+            <TableColumn fx:id="salePercentCol" prefWidth="91.20001220703125" text="Sell percentage" />
+            <TableColumn fx:id="categoryCol" prefWidth="110.4000244140625" text="Category" />
+        </columns>
+      </TableView>
+      <Button layoutX="329.0" layoutY="346.0" mnemonicParsing="false" onAction="#buybutton" text="Buy" />
+   </children>
+</AnchorPane>

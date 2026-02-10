@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Store.ClothController">
+   <children>
+      <AnchorPane layoutY="-2.0" prefHeight="382.0" prefWidth="427.0">
+         <children>
+            <Label layoutX="124.0" layoutY="33.0" text="Add Cloth Item" textFill="#426884">
+               <font>
+                  <Font name="System Bold" size="27.0" />
+               </font>
+            </Label>
+            <Label layoutX="57.0" layoutY="110.0" text="Name" textFill="#2397a4">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="57.0" layoutY="145.0" text="Price" textFill="#2397a4">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="57.0" layoutY="177.0" text="Quantity" textFill="#2397a4">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="57.0" layoutY="214.0" text="Brand" textFill="#2397a4">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="57.0" layoutY="249.0" text="Size" textFill="#2397a4">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="nameField" alignment="CENTER" layoutX="233.0" layoutY="111.0" prefHeight="26.0" prefWidth="179.0" promptText="Name" />
+            <TextField fx:id="priceField" alignment="CENTER" layoutX="233.0" layoutY="145.0" prefHeight="26.0" prefWidth="179.0" promptText="Price" />
+            <TextField fx:id="quantityField" alignment="CENTER" layoutX="233.0" layoutY="178.0" prefHeight="26.0" prefWidth="179.0" promptText="Quantity" />
+            <TextField fx:id="BrandField" alignment="CENTER" layoutX="233.0" layoutY="214.0" prefHeight="26.0" prefWidth="179.0" promptText="Brand" />
+            <TextField fx:id="SizeField" alignment="CENTER" layoutX="233.0" layoutY="250.0" prefHeight="26.0" prefWidth="179.0" promptText="Size" />
+            <Button layoutX="47.0" layoutY="328.0" mnemonicParsing="false" onAction="#handleBack" prefHeight="39.0" prefWidth="58.0" text="Back" textFill="#f20909">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Button>
+            <Button layoutX="334.0" layoutY="328.0" mnemonicParsing="false" onAction="#handleAdd" prefHeight="39.0" prefWidth="58.0" text="Add" textFill="#095e4a">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Button>
+            <Label layoutX="57.0" layoutY="285.0" text="Sub Category" textFill="#2397a4">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="SubCategoryField" alignment="CENTER" layoutX="233.0" layoutY="286.0" prefHeight="26.0" prefWidth="179.0" promptText="Sub Category" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

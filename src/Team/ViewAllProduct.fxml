@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="456.0" prefWidth="841.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Team.ViewAllProductsController">
+    
+    <Label layoutX="310.0" layoutY="20.0" text="All Products Page">
+        <font>
+            <Font name="Arial Bold" size="20.0" />
+        </font>
+    </Label>
+
+    <TableView fx:id="productTable" layoutX="50.0" layoutY="60.0" prefHeight="342.0" prefWidth="712.0" style="-fx-border-color: #2196f3; -fx-border-width: 2;">
+        <columns>
+            <TableColumn fx:id="nameCol" prefWidth="100" text="Name" />
+            <TableColumn fx:id="idCol" prefWidth="88.80007934570312" text="ID" />
+            <TableColumn fx:id="categoryCol" prefWidth="111.19993591308594" text="Category" />
+            <TableColumn fx:id="priceCol" prefWidth="100" text="Price" />
+            <TableColumn fx:id="quantityCol" prefWidth="100" text="Quantity" />
+            <TableColumn fx:id="saleCol" prefWidth="101.59991455078125" text="Sale" />
+         <TableColumn fx:id="salePercentCol" prefWidth="108.800048828125" text="Sale percentage" />
+        </columns>
+    </TableView>
+
+    <Button layoutX="376.0" layoutY="411.0" onAction="#backTocustomerDashBoard" prefHeight="36.0" prefWidth="60.0" text="Back">
+      <font>
+         <Font size="17.0" />
+      </font></Button>
+   <Button layoutX="767.0" layoutY="206.0" mnemonicParsing="false" onAction="#buybutton" prefHeight="38.0" prefWidth="60.0" text="Buy">
+      <font>
+         <Font size="20.0" />
+      </font>
+   </Button>
+</AnchorPane>

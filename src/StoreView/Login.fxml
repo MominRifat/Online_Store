@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Store.loginControlar">
+   <children>
+      <AnchorPane layoutX="-11.0" layoutY="-8.0" prefHeight="342.0" prefWidth="546.0">
+         <children>
+            <Separator layoutX="264.0" layoutY="90.0" orientation="VERTICAL" prefHeight="222.0" prefWidth="50.0">
+               <effect>
+                  <ColorAdjust brightness="-0.61" contrast="0.6" />
+               </effect>
+            </Separator>
+            <TextField fx:id="adminIdField" alignment="CENTER" layoutX="155.0" layoutY="164.0" prefHeight="31.0" prefWidth="110.0" promptText="Admin">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <Button fx:id="adminLoginButton" layoutX="125.0" layoutY="228.0" mnemonicParsing="false" onAction="#adminLogin" text="Login" textAlignment="CENTER" textFill="#337dcc">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Label layoutX="74.0" layoutY="94.0" prefHeight="35.0" prefWidth="162.0" text="Admin Login" textFill="#2397a4">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="338.0" layoutY="94.0" prefHeight="35.0" prefWidth="214.0" text="Customer Login" textFill="#2397a4">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="182.0" layoutY="26.0" prefHeight="35.0" prefWidth="214.0" text="Online Store Login" textFill="#5b72a1">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <TextField fx:id="customerIdField" alignment="CENTER" layoutX="428.0" layoutY="164.0" prefHeight="31.0" prefWidth="103.0" promptText="Customer">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </TextField>
+            <Label layoutX="33.0" layoutY="162.0" prefHeight="35.0" prefWidth="142.0" text="User Name">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Label>
+            <Button fx:id="customerLoginButton" layoutX="386.0" layoutY="228.0" mnemonicParsing="false" onAction="#customerLogin" text="Login" textAlignment="CENTER" textFill="#337dcc">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Label layoutX="304.0" layoutY="162.0" prefHeight="35.0" prefWidth="142.0" text="User Name">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
